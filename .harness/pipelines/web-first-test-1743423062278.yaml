@@ -30,7 +30,7 @@ pipeline:
                   identifier: dockerbuild
                   name: docker_build
                   spec:
-                    connectorRef: <+input>
+                    connectorRef: account.Tushar_docker_registry
                     repo: tusharkapadi1/web-first-test
                     tags:
                       - latest
