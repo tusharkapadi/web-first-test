@@ -30,6 +30,8 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: tusharkapadi1/web-first-test:2 # Replace with your Docker image
+          image:
+            repository: tusharkapadi1/web-first-test
+            tag: <+pipeline.variables.imageTag>
           ports:
             - containerPort: 3000
