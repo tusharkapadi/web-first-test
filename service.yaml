@@ -30,6 +30,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: tusharkapadi1/web-first-test:"<+pipeline.variables.imageTag>"
+          image: tusharkapadi1/web-first-test:<+pipeline.variables.imageTag>
           ports:
             - containerPort: 3000
