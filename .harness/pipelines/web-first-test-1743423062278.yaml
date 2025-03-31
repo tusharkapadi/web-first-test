@@ -33,7 +33,7 @@ pipeline:
                     connectorRef: account.Tushar_docker_registry
                     repo: tusharkapadi1/web-first-test
                     tags:
-                      - latest
+                      - <+pipeline.sequenceId>
                     caching: true
                   timeout: ""
                   type: BuildAndPushDockerRegistry
