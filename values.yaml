@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: tusharkapadi1/web-first-test # Replace with your Docker image
+          image: tusharkapadi1/web-first-test:2 # Replace with your Docker image
           ports:
             - containerPort: 3000
