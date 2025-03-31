@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: node-app-deployment
-  namespace: web-first-app
+  namespace: first-test
 spec:
   replicas: 2
   selector:
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: tusharkapadi1/first-web-app # Replace with your Docker image
+          image: tusharkapadi1/web-first-test # Replace with your Docker image
           ports:
             - containerPort: 3000
