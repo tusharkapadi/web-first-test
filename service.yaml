@@ -30,6 +30,6 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: tusharkapadi1/web-first-test:{{.Values.imageTag}}
+          image: tusharkapadi1/web-first-test:14
           ports:
             - containerPort: 3000
